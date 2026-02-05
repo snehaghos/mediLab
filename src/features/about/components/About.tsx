@@ -5,12 +5,12 @@ import aboutData from '@/data/about.json'
 
 export default function About() {
   return (
-    <section id="about" className="py-20 bg-white">
-      <div className="max-w-7xl mx-auto px-6">
-        <h2 className="text-4xl font-bold mb-16 text-center text-gray-900">{aboutData.title}</h2>
+    <section id="about" className="py-12 md:py-20 bg-white">
+      <div className="max-w-7xl mx-auto px-4 md:px-6">
+        <h2 className="text-2xl md:text-3xl lg:text-4xl font-bold mb-8 md:mb-16 text-center text-gray-900">{aboutData.title}</h2>
 
-        <div className="grid lg:grid-cols-2 gap-12 mb-16 items-start">
-          <div className="relative h-96 rounded-lg overflow-hidden bg-gradient-to-br from-gray-200 to-gray-100 flex items-center justify-center">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 md:gap-12 mb-12 md:mb-16 items-start">
+          <div className="relative h-64 md:h-96 rounded-lg overflow-hidden bg-gradient-to-br from-gray-200 to-gray-100 flex items-center justify-center">
             <img 
               src="/images/featureimg.jpg" 
               alt="About Medilab" 
@@ -23,8 +23,8 @@ export default function About() {
           </div>
 
           <div>
-            <h3 className="text-2xl font-bold mb-6 text-gray-900">About Medilab</h3>
-            <p className="text-gray-700 mb-8 leading-relaxed">
+            <h3 className="text-xl md:text-2xl font-bold mb-4 md:mb-6 text-gray-900">About Medilab</h3>
+            <p className="text-sm md:text-base text-gray-700 mb-6 md:mb-8 leading-relaxed">
               {aboutData.description}
             </p>
             <ul className="space-y-4">
@@ -41,7 +41,7 @@ export default function About() {
           </div>
         </div>
 
-        <div className="grid grid-cols-2 md:grid-cols-4 gap-6 bg-gradient-to-r from-blue-50 to-indigo-50 rounded-lg p-12">
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-4 md:gap-6 bg-gradient-to-r from-blue-50 to-indigo-50 rounded-lg p-6 md:p-12">
           {aboutData.stats.map((stat) => (
             <div key={stat.id} className="text-center">
               <div className="flex justify-center mb-4">
