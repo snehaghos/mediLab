@@ -1,0 +1,43 @@
+{
+  "title": "About Us",
+  "description": "Dolor iure expedita id fuga asperiores qui sunt consequatur minima. Quidem voluptas deleniti. Sit quia molestiae quia quas qui magnam itaque veritatis dolores. Corrupti totam ut eius incidunt reiciendis veritatis asperiores placeat.",
+  "features": [
+    {
+      "id": 1,
+      "title": "Ullamco laboris nisi ut aliquip consequat",
+      "description": "Magni facilis facilis repellendus cum excepturi quaerat praesentium libre trade"
+    },
+    {
+      "id": 2,
+      "title": "Magnam soluta odio exercitationem reprehenderi",
+      "description": "Quo totam dolorum at pariatur aut distinctio dolorum laudantium illo direna"
+    },
+    {
+      "id": 3,
+      "title": "Voluptatem et qui exercitationem",
+      "description": "Et velit et eos maiores est tempora et quos dolorem autem tempora incidunt"
+    }
+  ],
+  "stats": [
+    {
+      "id": 1,
+      "number": "140",
+      "label": "Doctors"
+    },
+    {
+      "id": 2,
+      "number": "50",
+      "label": "Departments"
+    },
+    {
+      "id": 3,
+      "number": "15",
+      "label": "Research Labs"
+    },
+    {
+      "id": 4,
+      "number": "8",
+      "label": "Awards"
+    }
+  ]
+}

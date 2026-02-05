@@ -1,0 +1,62 @@
+{
+  "title": "Appointment",
+  "subtitle": "Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit",
+  "formFields": [
+    {
+      "name": "department",
+      "label": "Department",
+      "type": "select",
+      "placeholder": "Select Department"
+    },
+    {
+      "name": "doctor",
+      "label": "Doctor",
+      "type": "select",
+      "placeholder": "Select Doctor"
+    },
+    {
+      "name": "date",
+      "label": "Appointment Date",
+      "type": "date"
+    },
+    {
+      "name": "time",
+      "label": "Appointment Time",
+      "type": "time"
+    },
+    {
+      "name": "name",
+      "label": "Your Name",
+      "type": "text",
+      "placeholder": "Your Name"
+    },
+    {
+      "name": "phone",
+      "label": "Phone",
+      "type": "tel",
+      "placeholder": "Phone Number"
+    },
+    {
+      "name": "message",
+      "label": "Message",
+      "type": "textarea",
+      "placeholder": "Message"
+    }
+  ],
+  "submitButtonText": "Book Appointment",
+  "successMessage": "Your appointment has been booked successfully!",
+  "departments": [
+    "Cardiology",
+    "Neurology",
+    "Orthopedics",
+    "Pediatrics",
+    "General Surgery"
+  ],
+  "doctors": [
+    "Dr. John Doe",
+    "Dr. Jane Smith",
+    "Dr. Michael Johnson",
+    "Dr. Sarah Williams",
+    "Dr. David Brown"
+  ]
+}

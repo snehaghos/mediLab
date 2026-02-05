@@ -1,0 +1,31 @@
+{
+  "title": "Frequently Asked Questions",
+  "subtitle": "Find answers to common questions about our services",
+  "faqs": [
+    {
+      "id": 1,
+      "question": "How do I book an appointment?",
+      "answer": "You can book an appointment through our online portal or by calling our reception desk. Visit our appointment section to select your preferred doctor and time slot."
+    },
+    {
+      "id": 2,
+      "question": "What is your cancellation policy?",
+      "answer": "Appointments can be cancelled up to 24 hours before the scheduled time. Cancellations made less than 24 hours in advance may incur a cancellation fee."
+    },
+    {
+      "id": 3,
+      "question": "Do you accept insurance?",
+      "answer": "Yes, we accept most major insurance plans. Please contact our billing department for more information about accepted insurance providers."
+    },
+    {
+      "id": 4,
+      "question": "What documents should I bring?",
+      "answer": "Please bring your ID, insurance card, and any relevant medical records or test results from previous doctors."
+    },
+    {
+      "id": 5,
+      "question": "Are emergency services available 24/7?",
+      "answer": "Yes, our emergency department is open 24 hours a day, 7 days a week for urgent medical care."
+    }
+  ]
+}

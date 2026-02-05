@@ -1,0 +1,34 @@
+{
+  "title": "Testimonials",
+  "subtitle": "What our patients say about us",
+  "testimonials": [
+    {
+      "id": 1,
+      "name": "John Smith",
+      "role": "Patient",
+      "message": "Excellent service and professional staff. Dr. John provided great care and attention to detail.",
+      "rating": 5
+    },
+    {
+      "id": 2,
+      "name": "Maria Garcia",
+      "role": "Patient",
+      "message": "The facilities are state-of-the-art and the doctors are very knowledgeable and caring.",
+      "rating": 5
+    },
+    {
+      "id": 3,
+      "name": "Robert Wilson",
+      "role": "Patient",
+      "message": "Had an amazing experience at Medilab. The staff was friendly and the treatment was effective.",
+      "rating": 5
+    },
+    {
+      "id": 4,
+      "name": "Sarah Johnson",
+      "role": "Patient",
+      "message": "I highly recommend Medilab for anyone seeking quality healthcare services.",
+      "rating": 5
+    }
+  ]
+}

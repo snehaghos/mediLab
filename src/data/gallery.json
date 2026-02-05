@@ -1,0 +1,42 @@
+{
+  "title": "Gallery",
+  "subtitle": "Explore our state-of-the-art facilities",
+  "images": [
+    {
+      "id": 1,
+      "title": "Modern Operating Room",
+      "description": "State-of-the-art surgical facilities with advanced equipment",
+      "image": "/images/dept-cardio.jpg"
+    },
+    {
+      "id": 2,
+      "title": "Patient Recovery Room",
+      "description": "Comfortable and well-equipped recovery facilities",
+      "image": "/images/dept-neuro.png"
+    },
+    {
+      "id": 3,
+      "title": "Diagnostic Center",
+      "description": "Advanced diagnostic imaging equipment",
+      "image": "/images/dept-ortho.png"
+    },
+    {
+      "id": 4,
+      "title": "Consultation Rooms",
+      "description": "Private and comfortable consultation spaces",
+      "image": "/images/dept-pedia.png"
+    },
+    {
+      "id": 5,
+      "title": "Pharmacy",
+      "description": "Well-stocked pharmacy with qualified pharmacists",
+      "image": "/images/dept-emergency.jpg"
+    },
+    {
+      "id": 6,
+      "title": "Hospital Lobby",
+      "description": "Modern and welcoming main entrance",
+      "image": "/images/featureimg.jpg"
+    }
+  ]
+}

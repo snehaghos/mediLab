@@ -1,0 +1,48 @@
+{
+  "title": "Doctors",
+  "subtitle": "Meet our team of experienced and dedicated healthcare professionals",
+  "doctors": [
+    {
+      "id": 1,
+      "name": "Dr. John Doe",
+      "specialty": "Cardiologist",
+      "image": "/images/doc1.jpg",
+      "experience": "15+ years"
+    },
+    {
+      "id": 2,
+      "name": "Dr. Jane Smith",
+      "specialty": "Neurologist",
+      "image": "/images/doc2.jpg",
+      "experience": "12+ years"
+    },
+    {
+      "id": 3,
+      "name": "Dr. Michael Johnson",
+      "specialty": "Orthopedic Surgeon",
+      "image": "/images/doc3.jpg",
+      "experience": "18+ years"
+    },
+    {
+      "id": 4,
+      "name": "Dr. Sarah Williams",
+      "specialty": "Pediatrician",
+      "image": "/images/doc4.jpg",
+      "experience": "10+ years"
+    },
+    {
+      "id": 5,
+      "name": "Dr. David Brown",
+      "specialty": "General Surgeon",
+      "image": "/images/doc5.jpeg",
+      "experience": "20+ years"
+    },
+    {
+      "id": 6,
+      "name": "Dr. Emily Davis",
+      "specialty": "Emergency Medicine",
+      "image": "/images/doc6.jpg",
+      "experience": "8+ years"
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "title": "Departments",
+  "subtitle": "Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit",
+  "departments": [
+    {
+      "id": 1,
+      "name": "Cardiology",
+      "description": "Expert cardiac care and treatment for heart-related conditions.",
+      "icon": "Heart",
+      "image": "/images/dept-cardio.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Neurology",
+      "description": "Specialized treatment for nervous system disorders and diseases.",
+      "icon": "Brain",
+      "image": "/images/dept-neuro.png"
+    },
+    {
+      "id": 3,
+      "name": "Orthopedics",
+      "description": "Comprehensive bone and joint care and surgical services.",
+      "icon": "Zap",
+      "image": "/images/dept-ortho.png"
+    },
+    {
+      "id": 4,
+      "name": "Pediatrics",
+      "description": "Dedicated care for infants, children, and adolescents.",
+      "icon": "Heart",
+      "image": "/images/dept-pedia.png"
+    },
+    {
+      "id": 5,
+      "name": "General Surgery",
+      "description": "Advanced surgical procedures for various medical conditions.",
+      "icon": "Stethoscope",
+      "image": "/images/herobg.jpg"
+    },
+    {
+      "id": 6,
+      "name": "Emergency Medicine",
+      "description": "24/7 emergency and critical care services.",
+      "icon": "AlertCircle",
+      "image": "/images/dept-emergency.jpg"
+    }
+  ]
+}
