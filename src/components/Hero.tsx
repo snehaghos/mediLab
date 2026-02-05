@@ -2,6 +2,7 @@
 
 import { BarChart3, Gem, Briefcase } from 'lucide-react'
 import heroData from '@/data/hero.json'
+import type { JSX } from 'react'
 
 const iconMap: Record<number, JSX.Element> = {
   1: <BarChart3 className="w-8 h-8" />,
@@ -55,7 +56,7 @@ export default function Hero() {
               {heroData.features.map((feature) => (
                 <div
                   key={feature.id}
-                  className="bg-white/60  border border-gray-100 rounded-lg p-6 shadow-md hover:shadow-lg transition text-center"
+                  className="bg-white/60 border border-gray-100 rounded-lg p-6 shadow-md hover:shadow-lg transition text-center"
                 >
                   <div className="flex justify-center text-[#1977cc] mb-4">
                     {iconMap[feature.id]}

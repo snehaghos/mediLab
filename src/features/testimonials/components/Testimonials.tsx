@@ -20,7 +20,6 @@ export default function Testimonials() {
               key={testimonial.id}
               className="bg-white border border-gray-200 rounded-lg p-8 hover:shadow-lg transition duration-300"
             >
-              {/* RATING STARS */}
               <div className="flex gap-1 mb-4">
                 {[...Array(5)].map((_, i) => (
                   <Star
@@ -34,12 +33,10 @@ export default function Testimonials() {
                 ))}
               </div>
 
-              {/* MESSAGE */}
               <p className="text-gray-600 text-sm mb-6 leading-relaxed h-20">
                 {testimonial.message}
               </p>
 
-              {/* AUTHOR */}
               <div className="flex gap-3 items-start">
                 <div className="w-12 h-12 rounded-full bg-gradient-to-br from-blue-100 to-indigo-100 flex items-center justify-center flex-shrink-0">
                   <User className="w-6 h-6 text-blue-400" />

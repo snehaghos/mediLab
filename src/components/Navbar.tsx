@@ -4,6 +4,20 @@ import { Menu, X, Phone, Mail, Facebook, Twitter, Linkedin, Instagram } from 'lu
 export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false)
 
+  const handleSmoothScroll = (e: React.MouseEvent<HTMLAnchorElement>, href: string) => {
+    e.preventDefault()
+    if (href === '#') {
+      window.scrollTo({ top: 0, behavior: 'smooth' })
+      return
+    }
+    
+    const element = document.querySelector(href)
+    if (element) {
+      element.scrollIntoView({ behavior: 'smooth', block: 'start' })
+      setIsOpen(false)
+    }
+  }
+
   return (
     <>
       <div className="bg-[#1977cc] text-white py-3 text-xs md:text-sm">
@@ -37,12 +51,12 @@ export default function Navbar() {
           </div>
 
           <nav className="hidden md:flex gap-8 items-center">
-            <a href="#" className="text-gray-700 hover:text-[#1977cc] font-medium transition">Home</a>
-            <a href="#about" className="text-gray-700 hover:text-[#1977cc] font-medium transition">About</a>
-            <a href="#services" className="text-gray-700 hover:text-[#1977cc] font-medium transition">Services</a>
-            <a href="#departments" className="text-gray-700 hover:text-[#1977cc] font-medium transition">Departments</a>
-            <a href="#doctors" className="text-gray-700 hover:text-[#1977cc] font-medium transition">Doctors</a>
-            <a href="#contact" className="text-gray-700 hover:text-[#1977cc] font-medium transition">Contact</a>
+            <a href="#" onClick={(e) => handleSmoothScroll(e, '#')} className="text-gray-700 hover:text-[#1977cc] font-medium transition">Home</a>
+            <a href="#about" onClick={(e) => handleSmoothScroll(e, '#about')} className="text-gray-700 hover:text-[#1977cc] font-medium transition">About</a>
+            <a href="#services" onClick={(e) => handleSmoothScroll(e, '#services')} className="text-gray-700 hover:text-[#1977cc] font-medium transition">Services</a>
+            <a href="#departments" onClick={(e) => handleSmoothScroll(e, '#departments')} className="text-gray-700 hover:text-[#1977cc] font-medium transition">Departments</a>
+            <a href="#doctors" onClick={(e) => handleSmoothScroll(e, '#doctors')} className="text-gray-700 hover:text-[#1977cc] font-medium transition">Doctors</a>
+            <a href="#contact" onClick={(e) => handleSmoothScroll(e, '#contact')} className="text-gray-700 hover:text-[#1977cc] font-medium transition">Contact</a>
             <button className="bg-[#1977cc] text-white px-6 py-2 rounded-lg hover:bg-blue-700 font-medium transition">
               Make an Appointment
             </button>
@@ -59,12 +73,12 @@ export default function Navbar() {
         {isOpen && (
           <div className="md:hidden bg-white border-t border-gray-200 py-4 px-6">
             <nav className="flex flex-col gap-4">
-              <a href="#" className="text-gray-700 hover:text-[#1977cc] font-medium transition">Home</a>
-              <a href="#about" className="text-gray-700 hover:text-[#1977cc] font-medium transition">About</a>
-              <a href="#services" className="text-gray-700 hover:text-[#1977cc] font-medium transition">Services</a>
-              <a href="#departments" className="text-gray-700 hover:text-[#1977cc] font-medium transition">Departments</a>
-              <a href="#doctors" className="text-gray-700 hover:text-[#1977cc] font-medium transition">Doctors</a>
-              <a href="#contact" className="text-gray-700 hover:text-[#1977cc] font-medium transition">Contact</a>
+              <a href="#" onClick={(e) => handleSmoothScroll(e, '#')} className="text-gray-700 hover:text-[#1977cc] font-medium transition">Home</a>
+              <a href="#about" onClick={(e) => handleSmoothScroll(e, '#about')} className="text-gray-700 hover:text-[#1977cc] font-medium transition">About</a>
+              <a href="#services" onClick={(e) => handleSmoothScroll(e, '#services')} className="text-gray-700 hover:text-[#1977cc] font-medium transition">Services</a>
+              <a href="#departments" onClick={(e) => handleSmoothScroll(e, '#departments')} className="text-gray-700 hover:text-[#1977cc] font-medium transition">Departments</a>
+              <a href="#doctors" onClick={(e) => handleSmoothScroll(e, '#doctors')} className="text-gray-700 hover:text-[#1977cc] font-medium transition">Doctors</a>
+              <a href="#contact" onClick={(e) => handleSmoothScroll(e, '#contact')} className="text-gray-700 hover:text-[#1977cc] font-medium transition">Contact</a>
               <button className="bg-[#1977cc] text-white px-6 py-2 rounded-lg hover:bg-blue-700 font-medium w-full transition">
                 Make an Appointment
               </button>

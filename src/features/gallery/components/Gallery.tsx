@@ -20,7 +20,6 @@ export default function Gallery() {
               key={item.id}
               className="relative h-56 bg-gradient-to-br from-blue-50 to-indigo-100 rounded-lg overflow-hidden hover:shadow-xl transition duration-300 group cursor-pointer"
             >
-              {/* IMAGE CONTENT */}
               <img 
                 src={item.image}
                 alt={item.title}
@@ -30,7 +29,6 @@ export default function Gallery() {
                 }}
               />
               
-              {/* PLACEHOLDER FALLBACK */}
               <div className="w-full h-full flex items-center justify-center bg-gradient-to-br from-blue-100 via-blue-50 to-indigo-50">
                 <div className="text-center">
                   <Search className="w-12 h-12 text-blue-300 mx-auto mb-2" />
@@ -38,7 +36,6 @@ export default function Gallery() {
                 </div>
               </div>
 
-              {/* HOVER OVERLAY */}
               <div className="absolute inset-0 bg-black/50 rounded-lg opacity-0 group-hover:opacity-100 transition duration-300 flex items-center justify-center">
                 <div className="text-center text-white px-4">
                   <h4 className="font-semibold text-base mb-1">{item.title}</h4>

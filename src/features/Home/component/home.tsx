@@ -15,17 +15,39 @@ import Hero from '@/components/Hero'
 export default function Home() {
   return (
     <>
-      <Hero />
-      <WhyChoose />
-      <About />
-      <Services />
-      <Appointment />
-      <Departments />
-      <Doctors />
-      <FAQ />
-      <Testimonials />
-      <Gallery />
-      <Contact />
+      <section id="hero">
+        <Hero />
+      </section>
+      <section id="whychoose">
+        <WhyChoose />
+      </section>
+      <section id="about">
+        <About />
+      </section>
+      <section id="services">
+        <Services />
+      </section>
+      <section id="appointment">
+        <Appointment />
+      </section>
+      <section id="departments">
+        <Departments />
+      </section>
+      <section id="doctors">
+        <Doctors />
+      </section>
+      <section id="faq">
+        <FAQ />
+      </section>
+      <section id="testimonials">
+        <Testimonials />
+      </section>
+      <section id="gallery">
+        <Gallery />
+      </section>
+      <section id="contact">
+        <Contact />
+      </section>
     </>
   )
 }
