@@ -2,7 +2,6 @@
 
 import React from "react"
 import { useState } from 'react'
-import { Calendar } from 'lucide-react'
 import appointmentData from '@/data/appointment.json'
 
 export default function Appointment() {

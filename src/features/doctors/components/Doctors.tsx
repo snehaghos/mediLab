@@ -1,6 +1,6 @@
 'use client'
 
-import { Facebook, Twitter, Linkedin, Instagram, User } from 'lucide-react'
+import { Facebook, Twitter, Linkedin, Instagram } from 'lucide-react'
 import doctorsData from '@/data/doctors.json'
 
 export default function Doctors() {

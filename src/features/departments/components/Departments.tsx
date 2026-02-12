@@ -1,7 +1,6 @@
 'use client'
 
 import { useState } from 'react'
-import { Building2 } from 'lucide-react'
 import departmentsData from '@/data/departments.json'
 
 export default function Departments() {
