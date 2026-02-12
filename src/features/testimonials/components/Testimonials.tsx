@@ -1,4 +1,4 @@
-'use client'
+ 
 
 import { Star, User } from 'lucide-react'
 import testimonialsData from '@/data/testimonials.json'

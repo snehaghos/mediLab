@@ -1,21 +1,21 @@
-'use client'
+ 
 
 import { Search } from 'lucide-react'
-import galleryData from '@/data/gallery.json'
+import galData from '@/data/gallery.json'
 
 export default function Gallery() {
   return (
     <section className="py-20 bg-gray-50">
       <div className="max-w-7xl mx-auto px-6">
         <div className="text-center mb-16">
-          <h2 className="text-4xl font-bold text-gray-900 mb-4">{galleryData.title}</h2>
+          <h2 className="text-4xl font-bold text-gray-900 mb-4">{galData.title}</h2>
           <p className="text-gray-600 text-lg max-w-2xl mx-auto">
-            {galleryData.subtitle}
+            {galData.subtitle}
           </p>
         </div>
 
         <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
-          {galleryData.images.map((item) => (
+          {galData.images.map((item) => (
             <div
               key={item.id}
               className="relative h-56 bg-gradient-to-br from-blue-50 to-indigo-100 rounded-lg overflow-hidden hover:shadow-xl transition duration-300 group cursor-pointer"

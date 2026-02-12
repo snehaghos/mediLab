@@ -1,5 +1,3 @@
-'use client'
-
 import { CheckCircle2, Users, Beaker, Award } from 'lucide-react'
 import aboutData from '@/data/about.json'
 

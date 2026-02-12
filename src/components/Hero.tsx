@@ -1,4 +1,4 @@
-'use client'
+ 
 
 import { BarChart3, Gem, Briefcase } from 'lucide-react'
 import heroData from '@/data/hero.json'

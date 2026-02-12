@@ -1,8 +1,8 @@
-'use client'
+ 
 
 import React from "react"
 import { useState } from 'react'
-import appointmentData from '@/data/appointment.json'
+import appoint from '@/data/appointment.json'
 
 export default function Appointment() {
   const [formData, setFormData] = useState({
@@ -40,9 +40,9 @@ export default function Appointment() {
     <section className="py-20 bg-white">
       <div className="max-w-7xl mx-auto px-6">
         <div className="text-center mb-16">
-          <h2 className="text-4xl font-bold text-gray-900 mb-4">{appointmentData.title}</h2>
+          <h2 className="text-4xl font-bold text-gray-900 mb-4">{appoint.title}</h2>
           <p className="text-gray-600 text-lg max-w-2xl mx-auto">
-            {appointmentData.subtitle}
+            {appoint.subtitle}
           </p>
         </div>
 
@@ -51,7 +51,7 @@ export default function Appointment() {
             <div className="grid md:grid-cols-2 gap-6">
               <div>
                 <label className="block text-gray-900 font-semibold mb-2 text-sm">
-                  {appointmentData.formFields[0].label}
+                  {appoint.formFields[0].label}
                 </label>
                 <select
                   name="department"
@@ -60,15 +60,15 @@ export default function Appointment() {
                   required
                   className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:border-[#1977cc] focus:ring-1 focus:ring-[#1977cc] bg-white"
                 >
-                  <option value="">{appointmentData.formFields[0].placeholder}</option>
-                  {appointmentData.departments.map((dept) => (
+                  <option value="">{appoint.formFields[0].placeholder}</option>
+                  {appoint.departments.map((dept) => (
                     <option key={dept} value={dept}>{dept}</option>
                   ))}
                 </select>
               </div>
               <div>
                 <label className="block text-gray-900 font-semibold mb-2 text-sm">
-                  {appointmentData.formFields[1].label}
+                  {appoint.formFields[1].label}
                 </label>
                 <select
                   name="doctor"
@@ -77,8 +77,8 @@ export default function Appointment() {
                   required
                   className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:border-[#1977cc] focus:ring-1 focus:ring-[#1977cc] bg-white"
                 >
-                  <option value="">{appointmentData.formFields[1].placeholder}</option>
-                  {appointmentData.doctors.map((doc) => (
+                  <option value="">{appoint.formFields[1].placeholder}</option>
+                  {appoint.doctors.map((doc) => (
                     <option key={doc} value={doc}>{doc}</option>
                   ))}
                 </select>
@@ -88,7 +88,7 @@ export default function Appointment() {
             <div className="grid md:grid-cols-2 gap-6">
               <div>
                 <label className="block text-gray-900 font-semibold mb-2 text-sm">
-                  {appointmentData.formFields[2].label}
+                  {appoint.formFields[2].label}
                 </label>
                 <input
                   type="date"
@@ -101,7 +101,7 @@ export default function Appointment() {
               </div>
               <div>
                 <label className="block text-gray-900 font-semibold mb-2 text-sm">
-                  {appointmentData.formFields[3].label}
+                  {appoint.formFields[3].label}
                 </label>
                 <input
                   type="time"
@@ -116,7 +116,7 @@ export default function Appointment() {
 
             <div>
               <label className="block text-gray-900 font-semibold mb-2 text-sm">
-                {appointmentData.formFields[4].label}
+                {appoint.formFields[4].label}
               </label>
               <input
                 type="text"
@@ -125,13 +125,13 @@ export default function Appointment() {
                 onChange={handleChange}
                 required
                 className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:border-[#1977cc] focus:ring-1 focus:ring-[#1977cc]"
-                placeholder={appointmentData.formFields[4].placeholder}
+                placeholder={appoint.formFields[4].placeholder}
               />
             </div>
 
             <div>
               <label className="block text-gray-900 font-semibold mb-2 text-sm">
-                {appointmentData.formFields[5].label}
+                {appoint.formFields[5].label}
               </label>
               <input
                 type="tel"
@@ -140,13 +140,13 @@ export default function Appointment() {
                 onChange={handleChange}
                 required
                 className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:border-[#1977cc] focus:ring-1 focus:ring-[#1977cc]"
-                placeholder={appointmentData.formFields[5].placeholder}
+                placeholder={appoint.formFields[5].placeholder}
               />
             </div>
 
             <div>
               <label className="block text-gray-900 font-semibold mb-2 text-sm">
-                {appointmentData.formFields[6].label}
+                {appoint.formFields[6].label}
               </label>
               <textarea
                 name="message"
@@ -154,13 +154,13 @@ export default function Appointment() {
                 onChange={handleChange}
                 rows={4}
                 className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:border-[#1977cc] focus:ring-1 focus:ring-[#1977cc] resize-none"
-                placeholder={appointmentData.formFields[6].placeholder}
+                placeholder={appoint.formFields[6].placeholder}
               />
             </div>
 
             {isSubmitted && (
               <div className="bg-green-50 border border-green-200 text-green-800 px-4 py-3 rounded-lg text-sm font-medium">
-                ✓ {appointmentData.successMessage}
+                ✓ {appoint.successMessage}
               </div>
             )}
 
@@ -168,7 +168,7 @@ export default function Appointment() {
               type="submit"
               className="w-full bg-[#1977cc] text-white py-3 rounded-lg font-bold hover:bg-blue-700 transition duration-300"
             >
-              {appointmentData.submitButtonText}
+              {appoint.submitButtonText}
             </button>
           </form>
         </div>

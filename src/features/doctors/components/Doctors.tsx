@@ -1,4 +1,4 @@
-'use client'
+ 
 
 import { Facebook, Twitter, Linkedin, Instagram } from 'lucide-react'
 import doctorsData from '@/data/doctors.json'

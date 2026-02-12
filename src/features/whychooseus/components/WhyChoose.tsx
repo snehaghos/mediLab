@@ -1,4 +1,4 @@
-'use client'
+ 
 
 import { Heart, Zap, Shield } from 'lucide-react'
 import whyChooseData from '@/data/whychooseus.json'

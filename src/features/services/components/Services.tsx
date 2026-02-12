@@ -1,4 +1,4 @@
-'use client'
+ 
 
 import { Heart, Stethoscope, Activity, Brain } from 'lucide-react'
 import servicesData from '@/data/services.json'
