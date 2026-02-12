@@ -1,26 +1,26 @@
 {
-  "title": "Welcome to Medilab",
-  "subtitle": "We are team of talented designers making websites with tailwindcss",
+  "title": "Your Health is Our Priority",
+  "subtitle": "Comprehensive healthcare solutions delivered by experienced medical professionals in a state-of-the-art facility",
   "whyChoose": {
-    "title": "Why Choose Medilab?",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Duis aute irure dolor in reprehenderit Aspariores dolores sed et. Tenetur quia eos. Autem tempore quibusdam vel necessitatibus optio ad corporis.",
+    "title": "Why Choose Our Hospital?",
+    "description": "We combine medical excellence with compassionate care, providing our patients with personalized treatment plans and the latest in healthcare technology. Our multi-disciplinary team is committed to delivering exceptional results.",
     "buttonText": "Learn More →"
   },
   "features": [
     {
       "id": 1,
-      "title": "Corporis voluptates officia eiusmod",
-      "description": "Consequuntur sunt aut quasi enim aliquam quae harum pariatur laboris nisi ut aliquip"
+      "title": "Specialized Medical Teams",
+      "description": "Expert physicians across multiple specialties working collaboratively for your care"
     },
     {
       "id": 2,
-      "title": "Ullamco laboris ladore pan",
-      "description": "Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt"
+      "title": "24/7 Emergency Care",
+      "description": "Round-the-clock emergency services with rapid response times and qualified trauma specialists"
     },
     {
       "id": 3,
-      "title": "Labore consequatur incidid dolore",
-      "description": "Aut suscipit aut cum nemo deleniti aut omnis. Doloribus ut maiores omnis facere"
+      "title": "Patient Education Programs",
+      "description": "Comprehensive programs to help you understand your condition and manage your health"
     }
   ]
 }

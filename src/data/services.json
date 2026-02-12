@@ -1,41 +1,41 @@
 {
-  "title": "Services",
-  "subtitle": "Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit",
+  "title": "Our Medical Services",
+  "subtitle": "Comprehensive healthcare services tailored to meet the diverse needs of our patients and community",
   "services": [
     {
       "id": 1,
-      "title": "Nesciunt Mete",
-      "description": "Provident nihil minus qui consequatur non omnis maiores. Eos accusantium minus dolores iure perferendis tempore et consequatur.",
+      "title": "Cardiology",
+      "description": "Advanced heart and cardiovascular care including diagnostic testing, treatment, and preventive services for patients of all ages.",
       "icon": "Heart"
     },
     {
       "id": 2,
-      "title": "Eosle Commodi",
-      "description": "Ut autem aut autem non a. Sint sint sit facilis nam iusto sint. Libero corrupti neque eum hic non ut nesciunt dolorem.",
+      "title": "Internal Medicine",
+      "description": "Expert diagnosis and treatment of diseases affecting internal organs, with focus on patient wellness and chronic disease management.",
       "icon": "Stethoscope"
     },
     {
       "id": 3,
-      "title": "Ledo Markt",
-      "description": "Ut excepturi voluptatem nisi sed. Quidem fuga consequatur. Minus ea aut. Vel qui id voluptas adipisci eos earum corrupti.",
+      "title": "Physical Rehabilitation",
+      "description": "Specialized therapy programs designed to restore function, improve mobility, and enhance quality of life after injury or illness.",
       "icon": "Activity"
     },
     {
       "id": 4,
-      "title": "Asperiores Commodit",
-      "description": "Non et temporibus minus omnis sed dolor esse consequatur. Cupiditate sed error ea fuga sit provident adipisci neque.",
+      "title": "Neurology",
+      "description": "Specialized care for neurological disorders including stroke, epilepsy, Parkinson's, and other neurological conditions.",
       "icon": "Brain"
     },
     {
       "id": 5,
-      "title": "Velit Doloremque",
-      "description": "Cumque et suscipit saepe. Est maiores autem enim facilis ut aut ipsam corporis aut. Sed animi at autem alias eius labore.",
+      "title": "Emergency Medicine",
+      "description": "24/7 emergency department providing immediate care and stabilization for acute medical and trauma cases.",
       "icon": "Heart"
     },
     {
       "id": 6,
-      "title": "Dolori Architecto",
-      "description": "Hic molestias ea quibusdam eos. Fugiat enim doloremque aut neque non et debitis iure. Corrupti recusandae ducimus enim.",
+      "title": "Family Medicine",
+      "description": "Comprehensive primary care for the entire family, focusing on prevention, education, and long-term health relationships.",
       "icon": "Stethoscope"
     }
   ]

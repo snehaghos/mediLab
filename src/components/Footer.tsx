@@ -11,7 +11,7 @@ export default function Footer() {
               <span className="text-xl font-bold">Medilab</span>
             </div>
             <p className="text-gray-700 text-sm leading-relaxed">
-              Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque.
+              Committed to providing compassionate, high-quality healthcare to our community since 2004. We believe in making excellent medical care accessible to everyone.
             </p>
           </div>
 

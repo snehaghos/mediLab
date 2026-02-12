@@ -2,6 +2,7 @@
 
 import { Heart, Stethoscope, Activity, Brain } from 'lucide-react'
 import servicesData from '@/data/services.json'
+import { Card } from '@/components/ui/card-component'
 
 const iconMap: { [key: string]: React.ReactNode } = {
   Heart: <Heart className="w-12 h-12" />,
@@ -21,11 +22,11 @@ export default function Services() {
 
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
           {servicesData.services.map((service) => (
-            <div key={service.id} className="p-8 bg-white border border-gray-100 rounded-lg hover:shadow-lg hover:border-blue-200 transition group">
-              <div className="text-[#1977cc] mb-4 group-hover:scale-110 transition">{iconMap[service.icon]}</div>
+            <Card key={service.id} className="group">
+              <div className="text-blue-600 mb-4 group-hover:scale-110 transition">{iconMap[service.icon]}</div>
               <h3 className="text-xl font-bold mb-3 text-gray-900">{service.title}</h3>
               <p className="text-gray-600 text-sm leading-relaxed">{service.description}</p>
-            </div>
+            </Card>
           ))}
         </div>
       </div>
